@@ -1,14 +1,6 @@
-var validar = 0;
-
-function validaIdade(idade){
-    if(idade = 18){
-        validar = true
-    }else{
-        validar = false
-    }
-    return validar;
-}
-
-var idade = prompt("Qual sua idade");
-validaIdade(idade)
-console.log(validar);
+gets = prompt("Digite 2 números inteiros separando-os por espaço: ");
+let line = gets.split(" ");
+let A = parseInt(line[0]);
+let B = parseInt(line[1]);
+let total = A + B; // Altere o valor da variável com o cálculo esperado
+console.log("X = " + total);
